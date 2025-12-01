@@ -32,21 +32,21 @@ SUDO_IMG = "https://files.catbox.moe/gyi5iu.jpg"
 
 def get_start_keyboard(bot_username):
     return InlineKeyboardMarkup([
-        [InlineKeyboardButton("📢 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=SUPPORT_CHANNEL), InlineKeyboardButton("💬 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=SUPPORT_GROUP)],
-        [InlineKeyboardButton("➕ 𝐀𝐝𝐝 𝐌𝐞 𝐁𝐚𝐛𝐲 ➕", url=f"https://t.me/{bot_username}?startgroup=true")],
-        [InlineKeyboardButton("📖 𝐇𝐞𝐥𝐩 𝐌𝐞𝐧𝐮", callback_data="help_main"), InlineKeyboardButton("♛ 𝐎𝐰𝐧𝐞𝐫", url=OWNER_LINK)]
+        [InlineKeyboardButton("💌 ᴜᴘᴅᴀᴛᴇ 💌", url=SUPPORT_CHANNEL), InlineKeyboardButton("✴️ Sᴜᴘᴘʀᴏᴛ ✴️", url=SUPPORT_GROUP)],
+        [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ➕", url=f"https://t.me/{bot_username}?startgroup=true")],
+        [InlineKeyboardButton("🛡️ Hᴇʟᴘ ᴍᴇɴᴜ 📇", callback_data="help_main"), InlineKeyboardButton("💌 Oᴡɴᴇʀ 💌", url=OWNER_LINK)]
     ])
 
 def get_help_keyboard():
     return InlineKeyboardMarkup([
-        [InlineKeyboardButton("💍 𝐒𝐨𝐜𝐢𝐚𝐥", callback_data="help_social"), InlineKeyboardButton("💰 𝐄𝐜𝐨𝐧𝐨𝐦𝐲", callback_data="help_economy")],
-        [InlineKeyboardButton("⚔️ 𝐑𝐏𝐆", callback_data="help_rpg"), InlineKeyboardButton("🧠 𝐀𝐈 & 𝐅𝐮𝐧", callback_data="help_fun")],
-        [InlineKeyboardButton("⚙️ 𝐆𝐫𝐨𝐮𝐩", callback_data="help_group"), InlineKeyboardButton("🔐 𝐒𝐮𝐝𝐨", callback_data="help_sudo")],
-        [InlineKeyboardButton("🔙 𝐁𝐚𝐜𝐤", callback_data="return_start")]
+        [InlineKeyboardButton("💍 Sᴏᴄɪᴀʟ", callback_data="help_social"), InlineKeyboardButton("💰 Eᴄᴏɴᴏᴍʏ", callback_data="help_economy")],
+        [InlineKeyboardButton("⚔️ Rᴘɢ", callback_data="help_rpg"), InlineKeyboardButton("🧠 Aɪ & Fᴜɴ", callback_data="help_fun")],
+        [InlineKeyboardButton("⚙️ Gʀᴏᴜᴘ", callback_data="help_group"), InlineKeyboardButton("🔐 Sᴜᴅᴏ", callback_data="help_sudo")],
+        [InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="return_start")]
     ])
 
 def get_back_keyboard():
-    return InlineKeyboardMarkup([[InlineKeyboardButton("🔙 𝐁𝐚𝐜𝐤", callback_data="help_main")]])
+    return InlineKeyboardMarkup([[InlineKeyboardButton("💌 Bᴀᴄᴋ", callback_data="help_main")]])
 
 # --- 🚀 COMMANDS ---
 
@@ -57,7 +57,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     track_group(chat, user)
     
     caption = (
-        f"👋 <b>Kon'nichiwa</b> {get_mention(user)}! (⁠≧⁠▽⁠≦⁠)\n\n"
+        f"👋 <b>Kʀɪᴛɪ'Bᴏᴛ</b> {get_mention(user)}! (⁠≧⁠▽⁠≦⁠)\n\n"
         f"『 <b>{BOT_NAME}</b> 』\n"
         f"<i>The Aesthetic AI-Powered RPG Bot!</i> 🌸\n\n"
         f"🎮 <b>𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬:</b>\n"
@@ -65,7 +65,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f"‣ <b>Social:</b> Marry, Couple\n"
         f"‣ <b>Economy:</b> Claim, Give\n"
         f"‣ <b>AI:</b> Sassy Chatbot\n\n"
-        f"💭 <b>𝐍𝐞𝐞𝐝 𝐇𝐞𝐥𝐩?</b>\n"
+        f"💭 <b>Nᴇᴇᴅ Hᴇʟᴘ?</b>\n"
         f"Click the buttons below!\n"
     )
 
