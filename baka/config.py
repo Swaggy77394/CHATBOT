@@ -28,11 +28,11 @@ START_TIME = time.time()
 # Env Variables
 TOKEN = os.getenv("BOT_TOKEN")
 MONGO_URI = os.getenv("MONGO_URI")
-MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY", "")
+MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY", "BZZKUlgNnch5NsQl1HlDWHh9fRQCSgbO")
 PORT = int(os.environ.get("PORT", 5000))
 
 # Updater Config
-UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "")
+UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/Badnam019/Chat-bot-")
 GIT_TOKEN = os.getenv("GIT_TOKEN", "")
 
 # Images & Links
