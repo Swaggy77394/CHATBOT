@@ -28,7 +28,7 @@ START_TIME = time.time()
 # Env Variables
 TOKEN = os.getenv("BOT_TOKEN")
 MONGO_URI = os.getenv("MONGO_URI")
-MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY", "BZZKUlgNnch5NsQl1HlDWHh9fRQCSgbO")
+MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY", "")
 PORT = int(os.environ.get("PORT", 5000))
 
 # Updater Config
