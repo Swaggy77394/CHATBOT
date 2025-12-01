@@ -26,7 +26,7 @@ from baka.config import BOT_NAME, START_IMG_URL, HELP_IMG_URL, SUPPORT_GROUP, SU
 from baka.utils import ensure_user_exists, get_mention, track_group, log_to_channel, SUDO_USERS
 
 # --- 🖼️ IMAGES ---
-SUDO_IMG = "https://files.catbox.moe/gyi5iu.jpg"
+SUDO_IMG = "https://files.catbox.moe/veuo1s.jpg"
 
 # --- ⌨️ KEYBOARDS ---
 
