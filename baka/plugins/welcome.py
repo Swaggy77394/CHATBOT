@@ -71,7 +71,7 @@ async def new_member(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 f"Type <code>/claim</code> fast to get 2,000 Coins!\n"
                 f"(Only the first person gets it!)"
             )
-            kb = InlineKeyboardMarkup([[InlineKeyboardButton("💬 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=SUPPORT_GROUP)]])
+            kb = InlineKeyboardMarkup([[InlineKeyboardButton("💬 sυᴘᴘσꝛᴛ", url=SUPPORT_GROUP)]])
             
             # Use Welcome Image (gyi5iu.jpg) for this interaction
             try: await update.message.reply_photo(WELCOME_IMG_URL, caption=txt, parse_mode=ParseMode.HTML, reply_markup=kb)
