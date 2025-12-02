@@ -26,13 +26,13 @@ import time
 START_TIME = time.time()
 
 # Env Variables
-TOKEN = os.getenv("BOT_TOKEN")
-MONGO_URI = os.getenv("MONGO_URI")
-MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY", "")
+TOKEN = os.getenv("BOT_TOKEN","7203514667:AAGYpQGgRAMklgGIMq61OTjuB0mKJDqlOls")
+MONGO_URI = os.getenv("MONGO_URI","mongodb+srv://Abhi77394:Abhi77394@cluster0.gm9wetq.mongodb.net/?appName=Cluster0")
+MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY", "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")
 PORT = int(os.environ.get("PORT", 5000))
 
 # Updater Config
-UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/Badnam019/Chat-bot-")
+UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/Swaggy77394/CHATBOT")
 GIT_TOKEN = os.getenv("GIT_TOKEN", "")
 
 # Images & Links
@@ -40,9 +40,9 @@ START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/veuo1s.jpg"
 HELP_IMG_URL = os.getenv("HELP_IMG_URL", "https://files.catbox.moe/zpj2tc.jpg") 
 WELCOME_IMG_URL = os.getenv("WELCOME_IMG_URL", "https://files.catbox.moe/7lkkx0.jpg") 
 
-SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/KRITI_SUPPORT_GROUP")
-SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/kriti_bot_update")
-OWNER_LINK = os.getenv("OWNER_LINK", "https://t.me/lllll_BADNAM_BABY_lllll")
+SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/ChatHouseGc")
+SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/SpicyxNetwork")
+OWNER_LINK = os.getenv("OWNER_LINK", "https://t.me/SheOwnsMaxim")
 
 # IDs
 try: LOGGER_ID = int(os.getenv("LOGGER_ID", "0").strip())
