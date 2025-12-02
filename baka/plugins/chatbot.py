@@ -31,7 +31,7 @@ from baka.utils import stylize_text
 
 # Settings
 MISTRAL_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = "mistral-7b-instruct:free" 
+MODEL = "google/gemma-3-4b-it:free" 
 MAX_HISTORY = 12
 
 # --- CUTE STICKER PACKS ---
