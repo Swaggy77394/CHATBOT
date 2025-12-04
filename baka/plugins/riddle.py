@@ -22,7 +22,7 @@
 from telegram import Update
 from telegram.ext import ContextTypes
 from telegram.constants import ParseMode, ChatType
-from baka.plugins.chatbot import ask_mistral_raw
+from baka.plugins.chatbot import get_ai_response
 from baka.database import riddles_collection, users_collection
 from baka.utils import format_money, ensure_user_exists, get_mention
 from baka.config import RIDDLE_REWARD
