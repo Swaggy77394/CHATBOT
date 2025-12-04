@@ -30,7 +30,7 @@ from baka.database import chatbot_collection
 from baka.utils import stylize_text
 
 # Settings
-MISTRAL_URL = "https://api.bytez.com/models/v2/fhai50032/Mistral-4B/chat/completions"
+MISTRAL_URL = "https://api.bytez.com/models/v2/chat/completions"
 MODEL = "Qwen/Qwen3-0.6B" 
 MAX_HISTORY = 12
 
