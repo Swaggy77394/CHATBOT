@@ -28,7 +28,7 @@ from telegram.constants import ParseMode
 from baka.utils import ensure_user_exists, resolve_target, get_mention, stylize_text, format_money
 from baka.database import users_collection
 from baka.config import WAIFU_PROPOSE_COST
-from baka.plugins.chatbot import ask_mistral_raw
+from baka.plugins.chatbot import get_ai_response
 
 API_URL = "https://api.waifu.pics"
 SFW_ACTIONS = ["kick", "happy", "wink", "poke", "dance", "cringe", "kill", "waifu", "neko", "shinobu", "bully", "cuddle", "cry", "hug", "awoo", "kiss", "lick", "pat", "smug", "bonk", "yeet", "blush", "smile", "wave", "highfive", "handhold", "nom", "bite", "glomp", "slap"]
