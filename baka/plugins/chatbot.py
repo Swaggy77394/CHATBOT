@@ -30,8 +30,8 @@ from baka.database import chatbot_collection
 from baka.utils import stylize_text
 
 # Settings
-MISTRAL_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = "google/gemma-3-4b-it:free" 
+MISTRAL_URL = "https://api.bytez.com/models/v2/fhai50032/Mistral-4B/chat/completions"
+MODEL = "fhai50032/Mistral-4B" 
 MAX_HISTORY = 12
 
 # --- CUTE STICKER PACKS ---
