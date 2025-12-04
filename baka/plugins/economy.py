@@ -25,7 +25,7 @@ from telegram.constants import ParseMode, ChatType
 from baka.config import REGISTER_BONUS, OWNER_ID, TAX_RATE, CLAIM_BONUS, MARRIED_TAX_RATE, SHOP_ITEMS, MIN_CLAIM_MEMBERS
 from baka.utils import ensure_user_exists, get_mention, format_money, resolve_target, log_to_channel, stylize_text, track_group
 from baka.database import users_collection, groups_collection
-from baka.plugins.chatbot import ask_mistral_raw
+from baka.plugins.chatbot import get_ai_response
 
 # --- INVENTORY CALLBACK ---
 async def inventory_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
