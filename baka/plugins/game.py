@@ -27,7 +27,7 @@ from telegram.constants import ParseMode
 from baka.config import PROTECT_1D_COST, PROTECT_2D_COST, REVIVE_COST, AUTO_REVIVE_HOURS, OWNER_ID
 from baka.utils import ensure_user_exists, resolve_target, is_protected, get_active_protection, format_time, format_money, get_mention, check_auto_revive
 from baka.database import users_collection
-from baka.plugins.chatbot import ask_mistral_raw
+from baka.plugins.chatbot import get_ai_response 
 
 async def get_narrative(action_type, attacker_mention, target_mention):
     if action_type == 'kill': prompt = "Funny kill message. P1 kills P2."
