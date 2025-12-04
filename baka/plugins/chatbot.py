@@ -31,7 +31,7 @@ from baka.utils import stylize_text
 
 # Settings
 MISTRAL_URL = "https://api.bytez.com/models/v2/fhai50032/Mistral-4B/chat/completions"
-MODEL = "fhai50032/Mistral-4B" 
+MODEL = "Qwen/Qwen3-0.6B" 
 MAX_HISTORY = 12
 
 # --- CUTE STICKER PACKS ---
