@@ -27,7 +27,7 @@ from telegram.constants import ParseMode, ChatType, ChatMemberStatus
 from baka.utils import ensure_user_exists, resolve_target, get_mention, format_money, stylize_text
 from baka.database import users_collection
 from baka.config import DIVORCE_COST, BOT_NAME
-from baka.plugins.chatbot import ask_mistral_raw
+from baka.plugins.chatbot import get_ai_response
 
 def get_progress_bar(percent):
     filled = int(percent / 10)
